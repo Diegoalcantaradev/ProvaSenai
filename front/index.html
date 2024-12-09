@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Cadastrar Usuario</h1>
+        <label for="name">Nome</label>
+        <input type="text" id="name">
+        <label for="cnh">CNH</label>
+        <input type="text" id="cnh">
+        <label for="password">Senha</label>
+        <input type="password" name="" id="password">
+        <button>Cadastrar Motorista</button>
+    </form>
+    <form id="formVeiculos">
+        <h2>Cadastro de veiculo</h2>
+        <label class="text-label">Placa do veiculo</label>
+        <input id="Placaveiculo" type="text" placeholder="php-9863">
+        <label class="text-label">Capacidade</label>
+        <input id="Capacidade" type="text" placeholder="4-7">
+        <button>Cadastrar</button>
+    </form>
+    <h2>Veiculo Cadastrado</h2>
+    <form action="" id="buscarveiculo" method="get">
+        <label class="text-label">id do veiculo</label>
+        <input id="idVeiculo" type="text" placeholder="">
+        <button>Buscar</button>
+    </form>
+    <p id="Veiculos">.</p>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
